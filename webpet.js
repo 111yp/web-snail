@@ -476,7 +476,7 @@ $(document).ready(function() {
 }, document.onmouseup = function(a) {
     dbTxt(4, "OFF"), figur.mouseUp()
 };
-var file = "./quotes.txt";
+var file = "https://111yp3t4lz.github.io/web-snail/quotes.txt";
 var list = [];
 var textLength = 0;
 $.get(file,function(txt){
