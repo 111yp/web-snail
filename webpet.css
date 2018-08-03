@@ -10,9 +10,6 @@
 	left: 50%;
 	bottom: auto;
 }
-generatedText {
-	font-family:  Arial, sans-serif;
-}
 .flip {
 	-moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
