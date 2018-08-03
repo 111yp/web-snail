@@ -449,10 +449,10 @@ var figur = {
         setskin: function(a) {
             switch (this.skin = a, a) {
                 case 0:
-                    this.elem.e.css("background", "url(https://kaynato.github.io/RagdollWebtoy/fig/fn0.png)");
+                    this.elem.e.css("background", "url(https://111yp3t4lz.github.io/web-snail/fig/fn0.png)");
                     break;
                 case 1:
-                    figur.elem.e.css("background", "url(https://kaynato.github.io/RagdollWebtoy/fig/alt/reimu.png)")
+                    figur.elem.e.css("background", "url(https://111yp3t4lz.github.io/web-snail/fig/fn0.png)")
             }
         }
     },
@@ -488,17 +488,12 @@ $.get(file,function(txt){
     }
 }); 
 function generateText(){
-	var fullWidth = window.innerWidth;
-    var fullHeight = window.innerHeight;
-	
-    var text = list[Math.floor(Math.random() * Math.floor(textLength))];
-	
-    //console.log(Math.floor(Math.random() * Math.floor(textLength)));
-    var elem = document.createElement("generatedText");
-    elem.textContent = text;
-    elem.style.position = "absolute";
+	var text = list[Math.floor(Math.random() * Math.floor(textLength))];
+    	var elem = document.createElement("generatedText");
+    	elem.textContent = text;
+    	elem.style.position = "absolute";
 	elem.style.left = figur.elem.getLeft() + Math.round(Math.random()* 125) + "px";
-    elem.style.top = figur.r.y + "px";
+    	elem.style.top = figur.r.y + "px";
 	document.body.appendChild(elem);
 	setTimeout(function(){
 	$('generatedText').remove();
