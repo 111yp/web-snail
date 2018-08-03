@@ -11,7 +11,7 @@
 	bottom: auto;
 }
 generatedText {
-	position: fixed;
+	font-family:  Arial, sans-serif;
 }
 .flip {
 	-moz-transform: scaleX(-1);
