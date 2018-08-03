@@ -11,8 +11,8 @@
 	bottom: auto;
 }
 generatedText {
-	color: green;
-	position: relative;
+	color: blue;
+	position: absolute;
 }
 .flip {
 	-moz-transform: scaleX(-1);
