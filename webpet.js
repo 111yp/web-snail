@@ -498,7 +498,7 @@ function generateText(){
     elem.textContent = text;
     elem.style.position = "absolute";
 	elem.style.left = figur.elem.getLeft() + Math.round(Math.random()* 125) + "px";
-    elem.style.top = figur.elem.getTop() + Math.round(Math.random()* -50) + "px";
+    elem.style.top = figur.elem.getTop() + "px";
 	document.body.appendChild(elem);
 	setTimeout(function(){
 	$('generatedText').remove();
