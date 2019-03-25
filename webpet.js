@@ -449,10 +449,10 @@ var figur = {
         setskin: function(a) {
             switch (this.skin = a, a) {
                 case 0:
-                    this.elem.e.css("background", "url(https://111yp3t4lz.github.io/web-snail/fig/fn0.png)");
+                    this.elem.e.css("background", "url(https://111yp.github.io/web-snail/fig/fn0.png)");
                     break;
                 case 1:
-                    figur.elem.e.css("background", "url(https://111yp3t4lz.github.io/web-snail/fig/fn0.png)")
+                    figur.elem.e.css("background", "url(https://111yp.github.io/web-snail/fig/fn0.png)")
             }
         }
     },
@@ -476,7 +476,7 @@ $(document).ready(function() {
 }, document.onmouseup = function(a) {
     dbTxt(4, "OFF"), figur.mouseUp()
 };
-var file = "https://111yp3t4lz.github.io/web-snail/quotes.txt";
+var file = "https://111yp.github.io/web-snail/quotes.txt";
 var list = [];
 var textLength = 0;
 $.get(file,function(txt){
