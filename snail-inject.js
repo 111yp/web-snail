@@ -30,7 +30,7 @@ function wait(){
 		window.setTimeout(wait,100); 
 	else {
 		create();
-		load("https://111yp.github.io/web-snail/webpet.js", "js");
+		load("https://cybersnail-ui.github.io/web-snail/webpet.js", "js");
 	} 
 }
 wait();
