@@ -1,1 +1,1 @@
-javascript:(function(){var F=document.createElement('script');F.type="text/javascript";F.src="https://111yp.github.io/web-snail/snail-inject.js";document.getElementsByTagName("head")[0].appendChild(F);})();
+javascript:(function(){var F=document.createElement('script');F.type="text/javascript";F.src="https://cybersnail-ui.github.io/web-snail/snail-inject.js";document.getElementsByTagName("head")[0].appendChild(F);})();
