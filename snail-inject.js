@@ -15,7 +15,7 @@ function load(N, T){
 		document.getElementsByTagName("head")[0].appendChild(F);
 }
 load("https://code.jquery.com/jquery-2.2.3.min.js", "js");
-load("https://111yp.github.io/web-snail/webpet.css", "css");
+load("https://cybersnail-ui.github.io/web-snail/webpet.css", "css");
 function create(){
 	var F = document.createElement('div');
 	F.setAttribute("id", "figure");
